@@ -1,0 +1,166 @@
+p {
+	color: #777;
+	font-size: 16px;
+	font-size: 1.6rem;
+	font-weight: 300;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+ul li {
+	margin-top: 5px;
+}
+
+#main-header{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: #fff;
+	z-index: 99;
+
+	background-color: rgb(255,255,255);
+	background-color: rgba(255,255,255,0.95);
+	background-color: black;
+
+	-moz-box-shadow: 1px 0 5px #999;
+	-webkit-box-shadow: 1px 0 5px #999;
+	box-shadow: 0 5px 5px #999;
+
+}
+
+#main-logo{
+    width: 76%;
+    height: 60px;
+    padding: 2px 0 0 30px;
+    margin: 0px 0px 0px;
+    background-color: none;
+    text-shadow: 5px 5px 5px black;
+    color: white;
+}
+
+#main-logo > a {
+	font-size: 20px;
+	font-size: 2rem;
+	font-weight: 600;
+	color: #fff;
+	text-decoration: none;
+}
+#main-logo > a > span {
+    display: block;
+    color: white;
+    font-size: 13px;
+    font-size: 1.3rem;
+
+}
+.contenido{
+	margin-top: 60px;
+}
+#main-menu{
+	float:right;
+	padding: 8px 25px;
+}
+
+#main-menu a {
+	color: white;
+
+}
+#main-drop a, #main-menu a:hover {
+	color: black;
+}
+
+#main-menu.nav-pills>li.active>a,
+#main-menu.nav-pills>li.active>a:hover,
+#main-menu.nav-pills>li.active>a:focus,
+#main-menu.nav-pills>li>a:hover{
+	background: none;
+}
+
+#main-menu.nav-pills>li.active>a,
+#main-menu.nav-pills>li.active>a:hover,
+#main-menu.nav-pills>li.active>a:focus{
+	color: white;
+}
+#main-menu.nav .open>a,
+#main-menu.nav .open>a:hover,
+#main-menu.nav .open>a:focus{
+	background: none;
+}
+#main-content{
+	margin-top: 8%;
+}
+
+
+#copyright-id{
+    padding-top: 40px;
+}
+
+#menu.sidebar-nav.nav-pills.nav-stacked>li.active>a,
+#menu.sidebar-nav.nav-pills.nav-stacked>li.active>a:hover,
+#menu.sidebar-nav.nav-pills.nav-stacked>li.active>a:focus,
+#menu.sidebar-nav.nav-pills.nav-stacked>li>a:hover{
+    background: none;
+}
+
+#menu.nsidebar-nav.nav-pills.nav-stacked>li.active>a,
+#menu.sidebar-nav.nav-pills.nav-stacked>li.active>a:hover,
+#menu.sidebar-nav.nav-pills.nav-stacked>li.active>a:focus{
+    color: black;
+}
+
+
+
+/*Sidebar styles
+*/
+body{margin-top:50px;}
+.glyphicon { margin-right:10px; }
+.panel-body { padding:0px; }
+.panel-body table tr td { padding-left: 15px }
+.panel-body .table {margin-bottom: 0px; }
+
+footer{
+    position: absolute;
+    bottom: 0;
+	width: 100%;
+	background-color: lightsteelblue;
+}
+footer a , footer a:hover{
+	color: black;
+}
+
+
+/* Responsive*/
+.header2 {
+	position: fixed;
+	height:100px;
+}
+ 
+.header2 .main-logo {
+	line-height:100px;
+	font-size:30px;
+}
+ 
+.header2 nav {
+	line-height:100px;
+}
+
+@media screen and (max-width: 950px) {
+	header .main-logo,
+	header nav {
+		width:100%;
+		text-align:center; /*Centramos el menu y el logotipo*/
+		line-height:100px;
+	}
+ 
+	.header2 {
+		height:auto;
+	}
+ 
+	.header2 .logo,
+	.header2 nav {
+		line-height:50px;
+	}
+}
